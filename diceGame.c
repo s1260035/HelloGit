@@ -4,6 +4,7 @@
 
 int i;
 int dice[2];
+
 void diceGame(){
   srand((unsigned int)time(NULL));
   printf("Rolling the dice...\n");
