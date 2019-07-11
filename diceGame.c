@@ -17,8 +17,16 @@ void diceGame(){
 
 }
 
+void greet(){
+  char name[10];
+  printf("What is your name?\n>");
+  scanf("%s", name);
+  printf("Hello, %s !\n", name);
+}
+
 
 int main(){
+  greet();
   diceGame();
   return 0;
 }
