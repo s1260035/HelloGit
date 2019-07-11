@@ -7,7 +7,6 @@ int dice[2];
 char name[10];
 
 void diceGame(){
-  srand((unsigned int)time(NULL));
   printf("Rolling the dice...\n");
   for(i = 0; i < 2; i++) {
     dice[i] = rand() % 6 + 1;
@@ -28,6 +27,7 @@ void greet(){
 
 
 int main(){
+  srand((unsigned int)time(NULL));
   greet();
   diceGame();
   printf("\nNext Battle !\n");
