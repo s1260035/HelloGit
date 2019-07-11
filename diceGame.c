@@ -4,6 +4,7 @@
 
 int i;
 int dice[2];
+char name[10];
 
 void diceGame(){
   srand((unsigned int)time(NULL));
