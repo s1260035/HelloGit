@@ -12,7 +12,6 @@ void diceGame(){
     dice[i] = rand() % 6 + 1;
     printf("Die %d: %d\n", i+1, dice[i]);
   }
-  sleep(1);
   printf("Total value: %-3d\n", dice[0] + dice[1]);
   if(dice[0] + dice[1] > 7) printf("%s, won\n", name);
   else printf("%s, lost\n", name);
