@@ -14,8 +14,8 @@ void diceGame(){
     printf("Die %d: %d\n", i+1, dice[i]);
   }
   printf("Total value: %-3d\n", dice[0] + dice[1]);
-  if(dice[0] + dice[1] > 7) printf("You, won\n");
-  else printf("You, lost\n");
+  if(dice[0] + dice[1] > 7) printf("%s, won\n", name);
+  else printf("%s, lost\n", name);
 
 }
 
