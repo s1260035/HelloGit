@@ -29,6 +29,8 @@ void greet(){
 int main(){
   greet();
   diceGame();
+  printf("Next Battle !\n");
+  diceGame();
   return 0;
 }
   
