@@ -3,10 +3,10 @@
 #include<time.h>
 
 int i;
+int dice[2];
+char name[10];
 
 void diceGame(){
-  int dice[2];
-
   srand((unsigned int)time(NULL));
   printf("Rolling the dice...\n");
   for(i = 0; i < 2; i++) {
@@ -18,7 +18,6 @@ void diceGame(){
 }
 
 void greet(){
-  char name[10];
   printf("What is your name?\n>");
   scanf("%s", name);
   printf("Hello, %s !\n", name);
